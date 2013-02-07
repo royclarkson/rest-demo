@@ -1,0 +1,11 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-06 22:44:09
+hint
+project --topLevelPackage com.royclarkson.devnexus.pizzashop
+hint
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+hint
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-06 23:49:00
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-06 23:52:40
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-06 23:56:47
