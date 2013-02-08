@@ -9,3 +9,43 @@ exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-06 23:52:40
 exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-06 23:56:47
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-07 00:03:49
+hint
+entity jpa --class ~.domain.Topping
+field string --fieldName name --notNull --sizeMin 2
+entity jpa --class ~.domain.Base --testAutomatically
+field string --fieldName name --notNull --sizeMin 2
+entity jpa --class ~.domain.Pizza --testAutomatically
+field string --fieldName name --notNull --sizeMin 2
+field number --fieldName price --type java.lang.Float
+field set --fieldName toppings --type ~.domain.Topping
+field reference --fieldName base --type ~.domain.Base
+entity jpa --class ~.domain.PizzaOrder --testAutomatically
+field string --fieldName name --notNull --sizeMin 2
+field string --fieldName address --sizeMax 30
+field number --fieldName total --type java.lang.Float
+field date --fieldName deliveryDate --type java.util.Date
+field set --fieldName pizzas --type ~.domain.Pizza
+perform tests
+perform tests
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-07 00:18:09
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-07 14:22:42
+web mvc setup
+web mvc all --package com.royclarkson.devnexus.pizzashop.web
+hint
+perform eclipse
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-07 14:25:14
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-07 14:27:48
+perform eclipse
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-07 14:44:04
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-02-07 14:50:18
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-02-07 14:58:20
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-08 15:06:23
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-08 15:06:41
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-08 15:10:07
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-08 16:08:31
