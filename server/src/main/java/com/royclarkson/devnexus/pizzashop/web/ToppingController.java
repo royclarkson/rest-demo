@@ -7,6 +7,7 @@ import javax.validation.Valid;
 import org.springframework.roo.addon.web.mvc.controller.scaffold.RooWebScaffold;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,7 +21,7 @@ import com.royclarkson.devnexus.pizzashop.domain.Topping;
 public class ToppingController {
 
 	@RequestMapping(method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
-	public @ResponseBody Topping createFromJson(@Valid Topping topping) {
+	public @ResponseBody Topping createFromJson(@RequestBody Topping topping) {
 		topping.persist();
 		return Topping.findTopping(topping.getId());
 	}
@@ -36,7 +37,7 @@ public class ToppingController {
 	}
 
 	@RequestMapping(method = RequestMethod.PUT, consumes = "application/json", produces = "application/json")
-	public @ResponseBody Topping updateFromJson(@Valid Topping topping) {
+	public @ResponseBody Topping updateFromJson(@RequestBody Topping topping) {
 		topping.merge();
 		return Topping.findTopping(topping.getId());
 	}

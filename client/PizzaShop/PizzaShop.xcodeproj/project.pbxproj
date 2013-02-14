@@ -7,108 +7,253 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81617CB416C36A56003353FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81617CB316C36A56003353FC /* UIKit.framework */; };
-		81617CB616C36A56003353FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81617CB516C36A56003353FC /* Foundation.framework */; };
-		81617CB816C36A56003353FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81617CB716C36A56003353FC /* CoreGraphics.framework */; };
-		81617CBE16C36A56003353FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81617CBC16C36A56003353FC /* InfoPlist.strings */; };
-		81617CC016C36A56003353FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81617CBF16C36A56003353FC /* main.m */; };
-		81617CC416C36A56003353FC /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81617CC316C36A56003353FC /* RCAppDelegate.m */; };
-		81617CC616C36A56003353FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 81617CC516C36A56003353FC /* Default.png */; };
-		81617CC816C36A56003353FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81617CC716C36A56003353FC /* Default@2x.png */; };
-		81617CCA16C36A56003353FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81617CC916C36A56003353FC /* Default-568h@2x.png */; };
+		8149159616C826310074369D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149159516C826310074369D /* UIKit.framework */; };
+		8149159816C826310074369D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149159716C826310074369D /* Foundation.framework */; };
+		8149159A16C826310074369D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149159916C826310074369D /* CoreGraphics.framework */; };
+		814915A016C826310074369D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8149159E16C826310074369D /* InfoPlist.strings */; };
+		814915A216C826310074369D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915A116C826310074369D /* main.m */; };
+		814915A616C826310074369D /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915A516C826310074369D /* SSAppDelegate.m */; };
+		814915A816C826310074369D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 814915A716C826310074369D /* Default.png */; };
+		814915AA16C826310074369D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814915A916C826310074369D /* Default@2x.png */; };
+		814915AC16C826310074369D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814915AB16C826310074369D /* Default-568h@2x.png */; };
+		814915AF16C826310074369D /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915AE16C826310074369D /* SSViewController.m */; };
+		814915B216C826310074369D /* SSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814915B016C826310074369D /* SSViewController.xib */; };
+		814915BB16C953870074369D /* SSBasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915B916C953870074369D /* SSBasesViewController.m */; };
+		814915BC16C953870074369D /* SSBasesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814915BA16C953870074369D /* SSBasesViewController.xib */; };
+		814915C016C95BE80074369D /* SSToppingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915BE16C95BE70074369D /* SSToppingsViewController.m */; };
+		814915C116C95BE80074369D /* SSToppingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814915BF16C95BE70074369D /* SSToppingsViewController.xib */; };
+		814915C516C95C370074369D /* SSPizzasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915C316C95C360074369D /* SSPizzasViewController.m */; };
+		814915C616C95C370074369D /* SSPizzasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814915C416C95C370074369D /* SSPizzasViewController.xib */; };
+		814915CA16C961790074369D /* SSPizzaOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915C816C961790074369D /* SSPizzaOrdersViewController.m */; };
+		814915CB16C961790074369D /* SSPizzaOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814915C916C961790074369D /* SSPizzaOrdersViewController.xib */; };
+		814915CE16C98F270074369D /* SSConnectionSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915CD16C98F270074369D /* SSConnectionSettings.m */; };
+		814915D116C9A4090074369D /* SSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915D016C9A4090074369D /* SSBase.m */; };
+		814915D516C9A4250074369D /* SSTopping.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915D416C9A4250074369D /* SSTopping.m */; };
+		814915D816C9A4330074369D /* SSPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915D716C9A4330074369D /* SSPizza.m */; };
+		814915DC16C9A81E0074369D /* SSPizzaOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 814915DB16C9A81E0074369D /* SSPizzaOrder.m */; };
+		8149163416CAD25A0074369D /* SSBaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8149163216CAD25A0074369D /* SSBaseDetailViewController.m */; };
+		8149163516CAD25A0074369D /* SSBaseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8149163316CAD25A0074369D /* SSBaseDetailViewController.xib */; };
+		8149163916CC2D440074369D /* SSCreateBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8149163716CC2D440074369D /* SSCreateBaseViewController.m */; };
+		8149163A16CC2D440074369D /* SSCreateBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8149163816CC2D440074369D /* SSCreateBaseViewController.xib */; };
+		8149163E16CD777B0074369D /* SSToppingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8149163C16CD777B0074369D /* SSToppingDetailViewController.m */; };
+		8149163F16CD777B0074369D /* SSToppingDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8149163D16CD777B0074369D /* SSToppingDetailViewController.xib */; };
+		8149164316CD79BF0074369D /* SSCreateToppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8149164116CD79BF0074369D /* SSCreateToppingViewController.m */; };
+		8149164416CD79BF0074369D /* SSCreateToppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8149164216CD79BF0074369D /* SSCreateToppingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81617CB016C36A56003353FC /* PizzaShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		81617CB316C36A56003353FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		81617CB516C36A56003353FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		81617CB716C36A56003353FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		81617CBB16C36A56003353FC /* PizzaShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PizzaShop-Info.plist"; sourceTree = "<group>"; };
-		81617CBD16C36A56003353FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		81617CBF16C36A56003353FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81617CC116C36A56003353FC /* PizzaShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PizzaShop-Prefix.pch"; sourceTree = "<group>"; };
-		81617CC216C36A56003353FC /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
-		81617CC316C36A56003353FC /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
-		81617CC516C36A56003353FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		81617CC716C36A56003353FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		81617CC916C36A56003353FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8149159216C826310074369D /* PizzaShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8149159516C826310074369D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8149159716C826310074369D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8149159916C826310074369D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8149159D16C826310074369D /* PizzaShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PizzaShop-Info.plist"; sourceTree = "<group>"; };
+		8149159F16C826310074369D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		814915A116C826310074369D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		814915A316C826310074369D /* PizzaShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PizzaShop-Prefix.pch"; sourceTree = "<group>"; };
+		814915A416C826310074369D /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		814915A516C826310074369D /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		814915A716C826310074369D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		814915A916C826310074369D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		814915AB16C826310074369D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		814915AD16C826310074369D /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		814915AE16C826310074369D /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		814915B116C826310074369D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSViewController.xib; sourceTree = "<group>"; };
+		814915B816C953870074369D /* SSBasesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBasesViewController.h; sourceTree = "<group>"; };
+		814915B916C953870074369D /* SSBasesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBasesViewController.m; sourceTree = "<group>"; };
+		814915BA16C953870074369D /* SSBasesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSBasesViewController.xib; sourceTree = "<group>"; };
+		814915BD16C95BE70074369D /* SSToppingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToppingsViewController.h; sourceTree = "<group>"; };
+		814915BE16C95BE70074369D /* SSToppingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToppingsViewController.m; sourceTree = "<group>"; };
+		814915BF16C95BE70074369D /* SSToppingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSToppingsViewController.xib; sourceTree = "<group>"; };
+		814915C216C95C360074369D /* SSPizzasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPizzasViewController.h; sourceTree = "<group>"; };
+		814915C316C95C360074369D /* SSPizzasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPizzasViewController.m; sourceTree = "<group>"; };
+		814915C416C95C370074369D /* SSPizzasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSPizzasViewController.xib; sourceTree = "<group>"; };
+		814915C716C961780074369D /* SSPizzaOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPizzaOrdersViewController.h; sourceTree = "<group>"; };
+		814915C816C961790074369D /* SSPizzaOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPizzaOrdersViewController.m; sourceTree = "<group>"; };
+		814915C916C961790074369D /* SSPizzaOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSPizzaOrdersViewController.xib; sourceTree = "<group>"; };
+		814915CC16C98F270074369D /* SSConnectionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSConnectionSettings.h; sourceTree = "<group>"; };
+		814915CD16C98F270074369D /* SSConnectionSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSConnectionSettings.m; sourceTree = "<group>"; };
+		814915CF16C9A4090074369D /* SSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBase.h; sourceTree = "<group>"; };
+		814915D016C9A4090074369D /* SSBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBase.m; sourceTree = "<group>"; };
+		814915D316C9A4250074369D /* SSTopping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTopping.h; sourceTree = "<group>"; };
+		814915D416C9A4250074369D /* SSTopping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTopping.m; sourceTree = "<group>"; };
+		814915D616C9A4330074369D /* SSPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPizza.h; sourceTree = "<group>"; };
+		814915D716C9A4330074369D /* SSPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPizza.m; sourceTree = "<group>"; };
+		814915DA16C9A81E0074369D /* SSPizzaOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSPizzaOrder.h; sourceTree = "<group>"; };
+		814915DB16C9A81E0074369D /* SSPizzaOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSPizzaOrder.m; sourceTree = "<group>"; };
+		8149163116CAD25A0074369D /* SSBaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBaseDetailViewController.h; sourceTree = "<group>"; };
+		8149163216CAD25A0074369D /* SSBaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBaseDetailViewController.m; sourceTree = "<group>"; };
+		8149163316CAD25A0074369D /* SSBaseDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSBaseDetailViewController.xib; sourceTree = "<group>"; };
+		8149163616CC2D440074369D /* SSCreateBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCreateBaseViewController.h; sourceTree = "<group>"; };
+		8149163716CC2D440074369D /* SSCreateBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCreateBaseViewController.m; sourceTree = "<group>"; };
+		8149163816CC2D440074369D /* SSCreateBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSCreateBaseViewController.xib; sourceTree = "<group>"; };
+		8149163B16CD777B0074369D /* SSToppingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSToppingDetailViewController.h; sourceTree = "<group>"; };
+		8149163C16CD777B0074369D /* SSToppingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSToppingDetailViewController.m; sourceTree = "<group>"; };
+		8149163D16CD777B0074369D /* SSToppingDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSToppingDetailViewController.xib; sourceTree = "<group>"; };
+		8149164016CD79BE0074369D /* SSCreateToppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCreateToppingViewController.h; sourceTree = "<group>"; };
+		8149164116CD79BF0074369D /* SSCreateToppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCreateToppingViewController.m; sourceTree = "<group>"; };
+		8149164216CD79BF0074369D /* SSCreateToppingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSCreateToppingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81617CAD16C36A56003353FC /* Frameworks */ = {
+		8149158F16C826310074369D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81617CB416C36A56003353FC /* UIKit.framework in Frameworks */,
-				81617CB616C36A56003353FC /* Foundation.framework in Frameworks */,
-				81617CB816C36A56003353FC /* CoreGraphics.framework in Frameworks */,
+				8149159616C826310074369D /* UIKit.framework in Frameworks */,
+				8149159816C826310074369D /* Foundation.framework in Frameworks */,
+				8149159A16C826310074369D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		81617CA716C36A56003353FC = {
+		8149158916C826310074369D = {
 			isa = PBXGroup;
 			children = (
-				81617CB916C36A56003353FC /* PizzaShop */,
-				81617CB216C36A56003353FC /* Frameworks */,
-				81617CB116C36A56003353FC /* Products */,
+				8149159B16C826310074369D /* PizzaShop */,
+				8149159416C826310074369D /* Frameworks */,
+				8149159316C826310074369D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		81617CB116C36A56003353FC /* Products */ = {
+		8149159316C826310074369D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81617CB016C36A56003353FC /* PizzaShop.app */,
+				8149159216C826310074369D /* PizzaShop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81617CB216C36A56003353FC /* Frameworks */ = {
+		8149159416C826310074369D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81617CB316C36A56003353FC /* UIKit.framework */,
-				81617CB516C36A56003353FC /* Foundation.framework */,
-				81617CB716C36A56003353FC /* CoreGraphics.framework */,
+				8149159516C826310074369D /* UIKit.framework */,
+				8149159716C826310074369D /* Foundation.framework */,
+				8149159916C826310074369D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		81617CB916C36A56003353FC /* PizzaShop */ = {
+		8149159B16C826310074369D /* PizzaShop */ = {
 			isa = PBXGroup;
 			children = (
-				81617CC216C36A56003353FC /* RCAppDelegate.h */,
-				81617CC316C36A56003353FC /* RCAppDelegate.m */,
-				81617CBA16C36A56003353FC /* Supporting Files */,
+				814915D916C9A5940074369D /* View Controllers */,
+				814915D216C9A40F0074369D /* Models */,
+				814915A416C826310074369D /* SSAppDelegate.h */,
+				814915A516C826310074369D /* SSAppDelegate.m */,
+				8149159C16C826310074369D /* Supporting Files */,
+				814915CC16C98F270074369D /* SSConnectionSettings.h */,
+				814915CD16C98F270074369D /* SSConnectionSettings.m */,
 			);
 			path = PizzaShop;
 			sourceTree = "<group>";
 		};
-		81617CBA16C36A56003353FC /* Supporting Files */ = {
+		8149159C16C826310074369D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				81617CBB16C36A56003353FC /* PizzaShop-Info.plist */,
-				81617CBC16C36A56003353FC /* InfoPlist.strings */,
-				81617CBF16C36A56003353FC /* main.m */,
-				81617CC116C36A56003353FC /* PizzaShop-Prefix.pch */,
-				81617CC516C36A56003353FC /* Default.png */,
-				81617CC716C36A56003353FC /* Default@2x.png */,
-				81617CC916C36A56003353FC /* Default-568h@2x.png */,
+				8149159D16C826310074369D /* PizzaShop-Info.plist */,
+				8149159E16C826310074369D /* InfoPlist.strings */,
+				814915A116C826310074369D /* main.m */,
+				814915A316C826310074369D /* PizzaShop-Prefix.pch */,
+				814915A716C826310074369D /* Default.png */,
+				814915A916C826310074369D /* Default@2x.png */,
+				814915AB16C826310074369D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		814915D216C9A40F0074369D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				814915CF16C9A4090074369D /* SSBase.h */,
+				814915D016C9A4090074369D /* SSBase.m */,
+				814915D616C9A4330074369D /* SSPizza.h */,
+				814915D716C9A4330074369D /* SSPizza.m */,
+				814915DA16C9A81E0074369D /* SSPizzaOrder.h */,
+				814915DB16C9A81E0074369D /* SSPizzaOrder.m */,
+				814915D316C9A4250074369D /* SSTopping.h */,
+				814915D416C9A4250074369D /* SSTopping.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		814915D916C9A5940074369D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				814915AD16C826310074369D /* SSViewController.h */,
+				814915AE16C826310074369D /* SSViewController.m */,
+				814915B016C826310074369D /* SSViewController.xib */,
+				814915DD16CAB0590074369D /* Bases */,
+				814915DE16CAB0600074369D /* Toppings */,
+				814915DF16CAB0660074369D /* Pizzas */,
+				814915E016CAB06D0074369D /* PizzaOrders */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		814915DD16CAB0590074369D /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				814915B816C953870074369D /* SSBasesViewController.h */,
+				814915B916C953870074369D /* SSBasesViewController.m */,
+				814915BA16C953870074369D /* SSBasesViewController.xib */,
+				8149163116CAD25A0074369D /* SSBaseDetailViewController.h */,
+				8149163216CAD25A0074369D /* SSBaseDetailViewController.m */,
+				8149163316CAD25A0074369D /* SSBaseDetailViewController.xib */,
+				8149163616CC2D440074369D /* SSCreateBaseViewController.h */,
+				8149163716CC2D440074369D /* SSCreateBaseViewController.m */,
+				8149163816CC2D440074369D /* SSCreateBaseViewController.xib */,
+			);
+			name = Bases;
+			sourceTree = "<group>";
+		};
+		814915DE16CAB0600074369D /* Toppings */ = {
+			isa = PBXGroup;
+			children = (
+				814915BD16C95BE70074369D /* SSToppingsViewController.h */,
+				814915BE16C95BE70074369D /* SSToppingsViewController.m */,
+				814915BF16C95BE70074369D /* SSToppingsViewController.xib */,
+				8149163B16CD777B0074369D /* SSToppingDetailViewController.h */,
+				8149163C16CD777B0074369D /* SSToppingDetailViewController.m */,
+				8149163D16CD777B0074369D /* SSToppingDetailViewController.xib */,
+				8149164016CD79BE0074369D /* SSCreateToppingViewController.h */,
+				8149164116CD79BF0074369D /* SSCreateToppingViewController.m */,
+				8149164216CD79BF0074369D /* SSCreateToppingViewController.xib */,
+			);
+			name = Toppings;
+			sourceTree = "<group>";
+		};
+		814915DF16CAB0660074369D /* Pizzas */ = {
+			isa = PBXGroup;
+			children = (
+				814915C216C95C360074369D /* SSPizzasViewController.h */,
+				814915C316C95C360074369D /* SSPizzasViewController.m */,
+				814915C416C95C370074369D /* SSPizzasViewController.xib */,
+			);
+			name = Pizzas;
+			sourceTree = "<group>";
+		};
+		814915E016CAB06D0074369D /* PizzaOrders */ = {
+			isa = PBXGroup;
+			children = (
+				814915C716C961780074369D /* SSPizzaOrdersViewController.h */,
+				814915C816C961790074369D /* SSPizzaOrdersViewController.m */,
+				814915C916C961790074369D /* SSPizzaOrdersViewController.xib */,
+			);
+			name = PizzaOrders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81617CAF16C36A56003353FC /* PizzaShop */ = {
+		8149159116C826310074369D /* PizzaShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81617CCD16C36A56003353FC /* Build configuration list for PBXNativeTarget "PizzaShop" */;
+			buildConfigurationList = 814915B516C826310074369D /* Build configuration list for PBXNativeTarget "PizzaShop" */;
 			buildPhases = (
-				81617CAC16C36A56003353FC /* Sources */,
-				81617CAD16C36A56003353FC /* Frameworks */,
-				81617CAE16C36A56003353FC /* Resources */,
+				8149158E16C826310074369D /* Sources */,
+				8149158F16C826310074369D /* Frameworks */,
+				8149159016C826310074369D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,75 +261,106 @@
 			);
 			name = PizzaShop;
 			productName = PizzaShop;
-			productReference = 81617CB016C36A56003353FC /* PizzaShop.app */;
+			productReference = 8149159216C826310074369D /* PizzaShop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		81617CA816C36A56003353FC /* Project object */ = {
+		8149158A16C826310074369D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = RC;
+				CLASSPREFIX = SS;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Roy Clarkson";
+				ORGANIZATIONNAME = "VMware, Inc.";
 			};
-			buildConfigurationList = 81617CAB16C36A56003353FC /* Build configuration list for PBXProject "PizzaShop" */;
+			buildConfigurationList = 8149158D16C826310074369D /* Build configuration list for PBXProject "PizzaShop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 81617CA716C36A56003353FC;
-			productRefGroup = 81617CB116C36A56003353FC /* Products */;
+			mainGroup = 8149158916C826310074369D;
+			productRefGroup = 8149159316C826310074369D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81617CAF16C36A56003353FC /* PizzaShop */,
+				8149159116C826310074369D /* PizzaShop */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		81617CAE16C36A56003353FC /* Resources */ = {
+		8149159016C826310074369D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81617CBE16C36A56003353FC /* InfoPlist.strings in Resources */,
-				81617CC616C36A56003353FC /* Default.png in Resources */,
-				81617CC816C36A56003353FC /* Default@2x.png in Resources */,
-				81617CCA16C36A56003353FC /* Default-568h@2x.png in Resources */,
+				814915A016C826310074369D /* InfoPlist.strings in Resources */,
+				814915A816C826310074369D /* Default.png in Resources */,
+				814915AA16C826310074369D /* Default@2x.png in Resources */,
+				814915AC16C826310074369D /* Default-568h@2x.png in Resources */,
+				814915B216C826310074369D /* SSViewController.xib in Resources */,
+				814915BC16C953870074369D /* SSBasesViewController.xib in Resources */,
+				814915C116C95BE80074369D /* SSToppingsViewController.xib in Resources */,
+				814915C616C95C370074369D /* SSPizzasViewController.xib in Resources */,
+				814915CB16C961790074369D /* SSPizzaOrdersViewController.xib in Resources */,
+				8149163516CAD25A0074369D /* SSBaseDetailViewController.xib in Resources */,
+				8149163A16CC2D440074369D /* SSCreateBaseViewController.xib in Resources */,
+				8149163F16CD777B0074369D /* SSToppingDetailViewController.xib in Resources */,
+				8149164416CD79BF0074369D /* SSCreateToppingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		81617CAC16C36A56003353FC /* Sources */ = {
+		8149158E16C826310074369D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81617CC016C36A56003353FC /* main.m in Sources */,
-				81617CC416C36A56003353FC /* RCAppDelegate.m in Sources */,
+				814915A216C826310074369D /* main.m in Sources */,
+				814915A616C826310074369D /* SSAppDelegate.m in Sources */,
+				814915AF16C826310074369D /* SSViewController.m in Sources */,
+				814915BB16C953870074369D /* SSBasesViewController.m in Sources */,
+				814915C016C95BE80074369D /* SSToppingsViewController.m in Sources */,
+				814915C516C95C370074369D /* SSPizzasViewController.m in Sources */,
+				814915CA16C961790074369D /* SSPizzaOrdersViewController.m in Sources */,
+				814915CE16C98F270074369D /* SSConnectionSettings.m in Sources */,
+				814915D116C9A4090074369D /* SSBase.m in Sources */,
+				814915D516C9A4250074369D /* SSTopping.m in Sources */,
+				814915D816C9A4330074369D /* SSPizza.m in Sources */,
+				814915DC16C9A81E0074369D /* SSPizzaOrder.m in Sources */,
+				8149163416CAD25A0074369D /* SSBaseDetailViewController.m in Sources */,
+				8149163916CC2D440074369D /* SSCreateBaseViewController.m in Sources */,
+				8149163E16CD777B0074369D /* SSToppingDetailViewController.m in Sources */,
+				8149164316CD79BF0074369D /* SSCreateToppingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		81617CBC16C36A56003353FC /* InfoPlist.strings */ = {
+		8149159E16C826310074369D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81617CBD16C36A56003353FC /* en */,
+				8149159F16C826310074369D /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		814915B016C826310074369D /* SSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814915B116C826310074369D /* en */,
+			);
+			name = SSViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		81617CCB16C36A56003353FC /* Debug */ = {
+		814915B316C826310074369D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +391,7 @@
 			};
 			name = Debug;
 		};
-		81617CCC16C36A56003353FC /* Release */ = {
+		814915B416C826310074369D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +416,7 @@
 			};
 			name = Release;
 		};
-		81617CCE16C36A56003353FC /* Debug */ = {
+		814915B616C826310074369D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -251,7 +427,7 @@
 			};
 			name = Debug;
 		};
-		81617CCF16C36A56003353FC /* Release */ = {
+		814915B716C826310074369D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -265,24 +441,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81617CAB16C36A56003353FC /* Build configuration list for PBXProject "PizzaShop" */ = {
+		8149158D16C826310074369D /* Build configuration list for PBXProject "PizzaShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81617CCB16C36A56003353FC /* Debug */,
-				81617CCC16C36A56003353FC /* Release */,
+				814915B316C826310074369D /* Debug */,
+				814915B416C826310074369D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81617CCD16C36A56003353FC /* Build configuration list for PBXNativeTarget "PizzaShop" */ = {
+		814915B516C826310074369D /* Build configuration list for PBXNativeTarget "PizzaShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81617CCE16C36A56003353FC /* Debug */,
-				81617CCF16C36A56003353FC /* Release */,
+				814915B616C826310074369D /* Debug */,
+				814915B716C826310074369D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 81617CA816C36A56003353FC /* Project object */;
+	rootObject = 8149158A16C826310074369D /* Project object */;
 }

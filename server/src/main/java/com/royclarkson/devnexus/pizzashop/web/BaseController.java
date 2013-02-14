@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.roo.addon.web.mvc.controller.scaffold.RooWebScaffold;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -23,8 +24,8 @@ public class BaseController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(BaseController.class);
 	
-	@RequestMapping(method = RequestMethod.POST, consumes = "application/json")
-	public @ResponseBody Base createFromJson(@Valid Base base) {
+	@RequestMapping(method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
+	public @ResponseBody Base createFromJson(@RequestBody Base base) {
 		base.persist();
 		return Base.findBase(base.getId());
 	}
@@ -39,8 +40,8 @@ public class BaseController {
 		return getBases(page, size);
 	}
 	
-	@RequestMapping(method = RequestMethod.PUT, consumes = "application/json")
-	public @ResponseBody Base updateFromJson(@Valid Base base) {
+	@RequestMapping(method = RequestMethod.PUT, consumes = "application/json", produces = "application/json")
+	public @ResponseBody Base updateFromJson(@RequestBody Base base) {
 		base.merge();
 		return Base.findBase(base.getId());
 	}
