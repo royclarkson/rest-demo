@@ -1,6 +1,6 @@
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-06 22:44:09
 hint
-project --topLevelPackage com.royclarkson.devnexus.pizzashop
+project --topLevelPackage org.springsource.showcases.pizzashop
 hint
 jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
 hint
@@ -32,7 +32,7 @@ exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-07 00:18:09
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-07 14:22:42
 web mvc setup
-web mvc all --package com.royclarkson.devnexus.pizzashop.web
+web mvc all --package org.springsource.showcases.pizzashop.web
 hint
 perform eclipse
 exit
@@ -49,3 +49,28 @@ exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-08 15:10:07
 exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-08 16:08:31
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-14 15:36:26
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-14 15:36:52
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-14 15:38:54
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-14 15:39:53
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-14 15:40:53
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-14 16:34:08
+hint
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-14 16:39:24
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-14 16:43:56
+hint
+perform tests
+hint
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-14 16:48:58
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-14 16:52:21
+hint
+help
+poll now
+web mvc update tags
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-14 17:00:43
+help
+poll now

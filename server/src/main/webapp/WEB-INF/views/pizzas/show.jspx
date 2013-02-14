@@ -2,10 +2,10 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_royclarkson_devnexus_pizzashop_domain_Pizza" object="${pizza}" path="/pizzas" z="YsXOQf38x8PCaYJFPYc1b/cgQH4=">
-        <field:display field="name" id="s_com_royclarkson_devnexus_pizzashop_domain_Pizza_name" object="${pizza}" z="8VX8EGqkm5dobo956ehxS5kbq+8="/>
-        <field:display field="price" id="s_com_royclarkson_devnexus_pizzashop_domain_Pizza_price" object="${pizza}" z="nTLYQ2yWusAjZ9OEnnqHcq4Oiec="/>
-        <field:display field="toppings" id="s_com_royclarkson_devnexus_pizzashop_domain_Pizza_toppings" object="${pizza}" z="IepzEGLs2JAnp9nVqFlX3DNpIH0="/>
-        <field:display field="base" id="s_com_royclarkson_devnexus_pizzashop_domain_Pizza_base" object="${pizza}" z="A1c2aU+ptmKFH9OK7jTjYRL+q34="/>
+    <page:show id="ps_org_springsource_showcases_pizzashop_domain_Pizza" object="${pizza}" path="/pizzas" z="y3pHvaWfsi45e44iajTS2mHAatM=">
+        <field:display field="name" id="s_org_springsource_showcases_pizzashop_domain_Pizza_name" object="${pizza}" z="SjpeMGIeyJ9wFIoUdf3RVJDcDGI="/>
+        <field:display field="price" id="s_org_springsource_showcases_pizzashop_domain_Pizza_price" object="${pizza}" z="GEPeVcNGmerSGuH40yXNWOjHJn4="/>
+        <field:display field="toppings" id="s_org_springsource_showcases_pizzashop_domain_Pizza_toppings" object="${pizza}" z="t9RZ6zwYuQpJUT2AepwALfiBYz8="/>
+        <field:display field="base" id="s_org_springsource_showcases_pizzashop_domain_Pizza_base" object="${pizza}" z="1pHAc0Mdffra5FH5cX4WW70/FrY="/>
     </page:show>
 </div>

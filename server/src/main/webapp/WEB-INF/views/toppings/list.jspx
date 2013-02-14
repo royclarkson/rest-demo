@@ -2,9 +2,9 @@
 <div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:list id="pl_com_royclarkson_devnexus_pizzashop_domain_Topping" items="${toppings}" z="X7ObEEs9Ov0JDvOcOHawVTzRMMU=">
-        <table:table data="${toppings}" id="l_com_royclarkson_devnexus_pizzashop_domain_Topping" path="/toppings" z="PX4j8mWgtl8OekIA+Ay2yaPEcK0=">
-            <table:column id="c_com_royclarkson_devnexus_pizzashop_domain_Topping_name" property="name" z="Xc5TBl0cjql5kH0qz8lcwVk96us="/>
+    <page:list id="pl_org_springsource_showcases_pizzashop_domain_Topping" items="${toppings}" z="CovuYXxz/v9ULTc7EIKktHxz0Hs=">
+        <table:table data="${toppings}" id="l_org_springsource_showcases_pizzashop_domain_Topping" path="/toppings" z="stL72+9g5TE9rOoGwnTKmZpV1rQ=">
+            <table:column id="c_org_springsource_showcases_pizzashop_domain_Topping_name" property="name" z="eiTJMHVfZRXKIFOkaYLlVtYZDCE="/>
         </table:table>
     </page:list>
 </div>

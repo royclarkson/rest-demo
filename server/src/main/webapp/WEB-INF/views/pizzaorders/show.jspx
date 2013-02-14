@@ -2,11 +2,11 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder" object="${pizzaorder}" path="/pizzaorders" z="TgvGgVA7J9RmxbmaxKpI/JX0cZA=">
-        <field:display field="name" id="s_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_name" object="${pizzaorder}" z="Zr2oLiV/Tuh/G9xXQl0MqY3lgu0="/>
-        <field:display field="address" id="s_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_address" object="${pizzaorder}" z="p8pHbMZYgswYgYWqfRBzFJdE+jw="/>
-        <field:display field="total" id="s_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_total" object="${pizzaorder}" z="DWOj1oDUG4H9rqzbUYSQoWrVEwE="/>
-        <field:display date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" field="deliveryDate" id="s_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_deliveryDate" object="${pizzaorder}" z="jR2QsYcB1rBNp7t1bmd3a1VBL4c="/>
-        <field:display field="pizzas" id="s_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_pizzas" object="${pizzaorder}" z="bL+x5A0+AU3eSPSLgy3zxM5GKD4="/>
+    <page:show id="ps_org_springsource_showcases_pizzashop_domain_PizzaOrder" object="${pizzaorder}" path="/pizzaorders" z="JAL3HygJMXJZT73oK/jKqCPTSfQ=">
+        <field:display field="name" id="s_org_springsource_showcases_pizzashop_domain_PizzaOrder_name" object="${pizzaorder}" z="wGp5fFJZYf9TbgCWfAjZz9GpNo8="/>
+        <field:display field="address" id="s_org_springsource_showcases_pizzashop_domain_PizzaOrder_address" object="${pizzaorder}" z="f4chq+7krFzI9pJSfFgw3NSGd4k="/>
+        <field:display field="total" id="s_org_springsource_showcases_pizzashop_domain_PizzaOrder_total" object="${pizzaorder}" z="OreGvhDJdAfE4c0vxEkHZb3QnAQ="/>
+        <field:display date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" field="deliveryDate" id="s_org_springsource_showcases_pizzashop_domain_PizzaOrder_deliveryDate" object="${pizzaorder}" z="WOWp9RFvRmROXd24kNjjzqy2WHk="/>
+        <field:display field="pizzas" id="s_org_springsource_showcases_pizzashop_domain_PizzaOrder_pizzas" object="${pizzaorder}" z="PmnAb7dTkuGFmfGTO2kIv3EiEgQ="/>
     </page:show>
 </div>

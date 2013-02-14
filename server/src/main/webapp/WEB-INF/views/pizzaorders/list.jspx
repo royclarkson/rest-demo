@@ -2,13 +2,13 @@
 <div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:list id="pl_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder" items="${pizzaorders}" z="0oOR+CdHjU2ttihwHA+nUqrwNV4=">
-        <table:table data="${pizzaorders}" id="l_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder" path="/pizzaorders" z="9ZS6AhkXAgtcSpjgsXkNUPoWOKg=">
-            <table:column id="c_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_name" property="name" z="wvnM2d9JUHOsEoSkaRbGcmDg7tU="/>
-            <table:column id="c_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_address" property="address" z="e+s4CnNnqP+EhzTneEl9/VsnaAc="/>
-            <table:column id="c_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_total" property="total" z="Iv+vdiW5ESK1nd+VoTaaP2luIqk="/>
-            <table:column date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" id="c_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_deliveryDate" property="deliveryDate" z="Q+snWAU6wyeP73DbzbO3qECHXhs="/>
-            <table:column id="c_com_royclarkson_devnexus_pizzashop_domain_PizzaOrder_pizzas" property="pizzas" z="JCcKfYoXR7MhKsENAiCemnnPo1c="/>
+    <page:list id="pl_org_springsource_showcases_pizzashop_domain_PizzaOrder" items="${pizzaorders}" z="Xo0jyB5HEIAfeV0axk/VqdFgIyQ=">
+        <table:table data="${pizzaorders}" id="l_org_springsource_showcases_pizzashop_domain_PizzaOrder" path="/pizzaorders" z="hgxSSwYeI6MTbL+MOUIOtsFnPEw=">
+            <table:column id="c_org_springsource_showcases_pizzashop_domain_PizzaOrder_name" property="name" z="j2SxI3uT212ZJKx5idDWjKm/ivU="/>
+            <table:column id="c_org_springsource_showcases_pizzashop_domain_PizzaOrder_address" property="address" z="B8NmARXsCdhddtKGbIHn9BuKKqY="/>
+            <table:column id="c_org_springsource_showcases_pizzashop_domain_PizzaOrder_total" property="total" z="oZ+oR8bFSM44ZYO2rteCdhfFUIE="/>
+            <table:column date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" id="c_org_springsource_showcases_pizzashop_domain_PizzaOrder_deliveryDate" property="deliveryDate" z="rf5e8k41tmqLedRymNL+hT4H7HU="/>
+            <table:column id="c_org_springsource_showcases_pizzashop_domain_PizzaOrder_pizzas" property="pizzas" z="QQVCWV4ZCD8lGcod1GsO8Y9DzlY="/>
         </table:table>
     </page:list>
 </div>
