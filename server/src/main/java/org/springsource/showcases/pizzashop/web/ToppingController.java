@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.roo.addon.web.mvc.controller.scaffold.RooWebScaffold;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springsource.showcases.pizzashop.domain.Topping;
 
 
@@ -20,6 +22,7 @@ import org.springsource.showcases.pizzashop.domain.Topping;
 @RooWebScaffold(path = "toppings", formBackingObject = Topping.class)
 public class ToppingController {
 
+	@ResponseStatus(HttpStatus.CREATED)
 	@RequestMapping(method = RequestMethod.POST, consumes = "application/json", produces = "application/json")
 	public @ResponseBody Topping createFromJson(@RequestBody Topping topping) {
 		topping.persist();

@@ -66,7 +66,7 @@
          NSInteger statusCode = [(NSHTTPURLResponse *)response statusCode];
          NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
          
-         if (statusCode == 200 && error == nil)
+         if (statusCode == 201 && error == nil)
          {
              [self saveDataDidFinishWithData:data];
          }
@@ -74,7 +74,7 @@
          {
              [self saveDataDidFailWithError:error];
          }
-         else if (statusCode != 200)
+         else if (statusCode != 201)
          {
              // check and handle status code
              NSLog(@"HTTP Status Code: %i", statusCode);

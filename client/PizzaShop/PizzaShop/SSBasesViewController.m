@@ -43,7 +43,7 @@
 
 - (IBAction)fetchData:(id)sender
 {
-    NSURL *url = [SSConnectionSettings urlWithFormat:@"/bases/"];
+    NSURL *url = [SSConnectionSettings urlWithFormat:@"/bases"];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
 	[request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     NSLog(@"%@", request);
